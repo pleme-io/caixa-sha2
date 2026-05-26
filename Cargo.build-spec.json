@@ -22,6 +22,7 @@
       },
       "features": [],
       "proc_macro": false,
+      "build_script": null,
       "dependencies": [],
       "runtime_dependencies": [],
       "build_dependencies": [],
@@ -39,6 +40,7 @@
       },
       "features": [],
       "proc_macro": false,
+      "build_script": null,
       "dependencies": [
         {
           "name": "hybrid_array",
@@ -83,6 +85,7 @@
       },
       "features": [],
       "proc_macro": false,
+      "build_script": null,
       "dependencies": [],
       "runtime_dependencies": [],
       "build_dependencies": [],
@@ -100,6 +103,7 @@
       },
       "features": [],
       "proc_macro": false,
+      "build_script": null,
       "dependencies": [],
       "runtime_dependencies": [],
       "build_dependencies": [],
@@ -117,6 +121,7 @@
       },
       "features": [],
       "proc_macro": false,
+      "build_script": null,
       "dependencies": [
         {
           "name": "libc",
@@ -154,6 +159,7 @@
       },
       "features": [],
       "proc_macro": false,
+      "build_script": null,
       "dependencies": [
         {
           "name": "hybrid_array",
@@ -205,6 +211,7 @@
         "oid"
       ],
       "proc_macro": false,
+      "build_script": null,
       "dependencies": [
         {
           "name": "blobby",
@@ -315,6 +322,7 @@
       },
       "features": [],
       "proc_macro": false,
+      "build_script": null,
       "dependencies": [],
       "runtime_dependencies": [],
       "build_dependencies": [],
@@ -332,6 +340,7 @@
       },
       "features": [],
       "proc_macro": false,
+      "build_script": null,
       "dependencies": [
         {
           "name": "typenum",
@@ -373,6 +382,7 @@
       },
       "features": [],
       "proc_macro": false,
+      "build_script": "build.rs",
       "dependencies": [],
       "runtime_dependencies": [],
       "build_dependencies": [],
@@ -392,6 +402,7 @@
         "oid"
       ],
       "proc_macro": false,
+      "build_script": null,
       "dependencies": [
         {
           "name": "cfg_if",
@@ -474,6 +485,7 @@
         "const-generics"
       ],
       "proc_macro": false,
+      "build_script": null,
       "dependencies": [],
       "runtime_dependencies": [],
       "build_dependencies": [],
