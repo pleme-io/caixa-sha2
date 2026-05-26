@@ -378,9 +378,9 @@
       "build_dependencies": [],
       "crate_renames": {}
     },
-    "sha2-0.11.0": {
+    "sha2-0.11.1": {
       "name": "sha2",
-      "version": "0.11.0",
+      "version": "0.11.1",
       "edition": "2024",
       "source": {
         "kind": "path",
@@ -419,15 +419,6 @@
           "uses_default_features": true,
           "optional": false,
           "target": null
-        },
-        {
-          "name": "hex_literal",
-          "package_key": "hex-literal-1.1.0",
-          "kind": "normal",
-          "features": [],
-          "uses_default_features": true,
-          "optional": false,
-          "target": null
         }
       ],
       "runtime_dependencies": [
@@ -457,15 +448,6 @@
           "uses_default_features": true,
           "optional": false,
           "target": null
-        },
-        {
-          "name": "hex_literal",
-          "package_key": "hex-literal-1.1.0",
-          "kind": "normal",
-          "features": [],
-          "uses_default_features": true,
-          "optional": false,
-          "target": null
         }
       ],
       "build_dependencies": [],
@@ -474,12 +456,6 @@
           {
             "version": "1.0.4",
             "rename": "cfg_if"
-          }
-        ],
-        "hex-literal": [
-          {
-            "version": "1.1.0",
-            "rename": "hex_literal"
           }
         ]
       }
@@ -504,8 +480,8 @@
       "crate_renames": {}
     }
   },
-  "root_crate": "sha2-0.11.0",
+  "root_crate": "sha2-0.11.1",
   "workspace_members": [
-    "sha2-0.11.0"
+    "sha2-0.11.1"
   ]
 }
