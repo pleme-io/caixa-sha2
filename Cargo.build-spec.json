@@ -1,5 +1,5 @@
 {
-  "version": 1,
+  "version": 2,
   "workspace": {
     "root": "/Users/drzzln/code/github/pleme-io/caixa-sha2",
     "members": [
@@ -23,6 +23,20 @@
       "features": [],
       "proc_macro": false,
       "build_script": null,
+      "binaries": [
+        {
+          "name": "decode",
+          "path": "src/bin/decode.rs"
+        },
+        {
+          "name": "encode",
+          "path": "src/bin/encode.rs"
+        }
+      ],
+      "lib_target": {
+        "name": "blobby",
+        "path": "src/lib.rs"
+      },
       "dependencies": [],
       "runtime_dependencies": [],
       "build_dependencies": [],
@@ -41,6 +55,11 @@
       "features": [],
       "proc_macro": false,
       "build_script": null,
+      "binaries": [],
+      "lib_target": {
+        "name": "block_buffer",
+        "path": "src/lib.rs"
+      },
       "dependencies": [
         {
           "name": "hybrid_array",
@@ -86,6 +105,11 @@
       "features": [],
       "proc_macro": false,
       "build_script": null,
+      "binaries": [],
+      "lib_target": {
+        "name": "cfg_if",
+        "path": "src/lib.rs"
+      },
       "dependencies": [],
       "runtime_dependencies": [],
       "build_dependencies": [],
@@ -104,6 +128,11 @@
       "features": [],
       "proc_macro": false,
       "build_script": null,
+      "binaries": [],
+      "lib_target": {
+        "name": "const_oid",
+        "path": "src/lib.rs"
+      },
       "dependencies": [],
       "runtime_dependencies": [],
       "build_dependencies": [],
@@ -122,6 +151,11 @@
       "features": [],
       "proc_macro": false,
       "build_script": null,
+      "binaries": [],
+      "lib_target": {
+        "name": "cpufeatures",
+        "path": "src/lib.rs"
+      },
       "dependencies": [
         {
           "name": "libc",
@@ -160,6 +194,11 @@
       "features": [],
       "proc_macro": false,
       "build_script": null,
+      "binaries": [],
+      "lib_target": {
+        "name": "crypto_common",
+        "path": "src/lib.rs"
+      },
       "dependencies": [
         {
           "name": "hybrid_array",
@@ -212,6 +251,11 @@
       ],
       "proc_macro": false,
       "build_script": null,
+      "binaries": [],
+      "lib_target": {
+        "name": "digest",
+        "path": "src/lib.rs"
+      },
       "dependencies": [
         {
           "name": "blobby",
@@ -323,6 +367,11 @@
       "features": [],
       "proc_macro": false,
       "build_script": null,
+      "binaries": [],
+      "lib_target": {
+        "name": "hex_literal",
+        "path": "src/lib.rs"
+      },
       "dependencies": [],
       "runtime_dependencies": [],
       "build_dependencies": [],
@@ -341,6 +390,11 @@
       "features": [],
       "proc_macro": false,
       "build_script": null,
+      "binaries": [],
+      "lib_target": {
+        "name": "hybrid_array",
+        "path": "src/lib.rs"
+      },
       "dependencies": [
         {
           "name": "typenum",
@@ -383,6 +437,11 @@
       "features": [],
       "proc_macro": false,
       "build_script": "build.rs",
+      "binaries": [],
+      "lib_target": {
+        "name": "libc",
+        "path": "src/lib.rs"
+      },
       "dependencies": [],
       "runtime_dependencies": [],
       "build_dependencies": [],
@@ -403,6 +462,11 @@
       ],
       "proc_macro": false,
       "build_script": null,
+      "binaries": [],
+      "lib_target": {
+        "name": "sha2",
+        "path": "src/lib.rs"
+      },
       "dependencies": [
         {
           "name": "cfg_if",
@@ -486,6 +550,11 @@
       ],
       "proc_macro": false,
       "build_script": null,
+      "binaries": [],
+      "lib_target": {
+        "name": "typenum",
+        "path": "src/lib.rs"
+      },
       "dependencies": [],
       "runtime_dependencies": [],
       "build_dependencies": [],
@@ -495,5 +564,11 @@
   "root_crate": "sha2-0.11.1",
   "workspace_members": [
     "sha2-0.11.1"
-  ]
+  ],
+  "flake_metadata": {
+    "sha2": {
+      "default_bin": null,
+      "repo": "RustCrypto/hashes"
+    }
+  }
 }
